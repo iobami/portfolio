@@ -287,7 +287,6 @@ body {
 }
 
 .footer__container-pirej .content {
-  height: 250px;
   padding: 1em 0;
 }
 
@@ -310,12 +309,48 @@ body {
   box-shadow: #282828 0px 2px 6px;
 }
 
+.footer__container-pirej .contact--me_at {
+  margin-bottom: 2.5em;
+}
+
 .footer__container-pirej .contact--me_at .contact--me___item {
   height: 180px;
   min-height: 180px;
   max-height: 180px;
   background: rgb(0, 0, 0);
   background: rgba(0, 0, 0, 0.5);
+  transition: 0.15s ease-in-out;
+}
+
+.footer__container-pirej .contact--me_at .contact--me___item:hover {
+  transition: 0.25s ease-in-out;
+}
+
+.footer__container-pirej .contact--me_at .contact--me___item.github:hover {
+  background: #080808;
+}
+
+.footer__container-pirej .contact--me_at .contact--me___item.linkedin:hover {
+  background: #0e76a8;
+}
+
+.footer__container-pirej .contact--me_at .contact--me___item.twitter:hover {
+  background: #001c4a;
+}
+
+.footer__container-pirej .contact--me_at .contact--me___item.twitter:hover svg {
+  transition: 0.25s ease-in-out;
+  stroke: #00acee;
+  fill: #00acee;
+}
+
+.footer__container-pirej .contact--me_at .contact--me___item.yahoo:hover {
+  background: #6001D2;
+}
+
+.footer__container-pirej .contact--me_at .contact--me___item svg {
+  stroke: #ffffff;
+  fill: none;
 }
 /* FOOTER HERE ENDS */
 

@@ -1,7 +1,13 @@
 import React, { Fragment } from 'react';
-import { HeartIcon } from '.';
+import { HeartIcon, Github, Linkedin, Twitter, Yahoo } from '.';
 
 export default function Footer() {
+  const contacts = [
+    { icon: <Github />, className: 'github' },
+    { icon: <Linkedin />, className: 'linkedin' },
+    { icon: <Twitter />, className: 'twitter' },
+    { icon: <Yahoo />, className: 'yahoo' },
+  ];
 
   return (
     <Fragment>
@@ -13,9 +19,17 @@ export default function Footer() {
               <div className="row ml-0 mr-0">
                 <div className="col-sm-11 col-12 mx-auto">
                   <div className="row">
-                    <div className="col-md-3 pt-3">
-                      <div className="contact--me___item"></div>
-                    </div>
+
+                    {contacts.map(({ icon, className }) => (
+                      <div className="col-md-3 pt-3">
+                        <div className={`contact--me___item ${className}`}>
+                          <div className="d-flex justify-content-center align-items-center h-100">
+                            {icon}
+                          </div>
+                        </div>
+                      </div>
+                    ))}
+
                   </div>
                 </div>
               </div>
@@ -23,9 +37,9 @@ export default function Footer() {
 
             <div>
               <span className="btn copyright">
-                <span className="d-flex  align-items-center">
+                <span className="d-flex align-items-center">
                   Copyright © 2020. iobami <HeartIcon />. &nbsp; All rights reserved.
-                  </span>
+                </span>
               </span>
             </div>
           </div>
