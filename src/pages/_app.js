@@ -17,7 +17,7 @@ function App({ Component, pageProps }) {
         <title>Bam Bam's porfolio | Main</title>
         <link rel="icon" href="/favicon.ico" />
 
-        <link rel="stylesheet" href="/css/bootstrap.css" />
+        <link rel="stylesheet" href="./css/bootstrap.css" />
       </Head>
 
       <Component {...pageProps} />

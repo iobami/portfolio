@@ -1,4 +1,5 @@
 import React, { Fragment } from 'react';
+import { HeartIcon } from '.';
 
 export default function MyTitle() {
 
@@ -8,9 +9,14 @@ export default function MyTitle() {
         <div className="container p-2 h-100">
           <div className="row ml-0 mr-0 text-center h-100">
             <div className="job-title d-flex flex-column justify-content-around align-items-center w-100">
-              <div className="animate__animated animate__fadeInUp">
-                <h1>Hello, I'm Ayobami</h1>
-                <h1 className="m-1">A Front-End Developer</h1>
+              <div>
+                <div className="avatar--container animate__animated animate__fadeIn animate__slower position-relative">
+                  <img className="avatar" src="/imgs/profile.jpeg" alt="" />
+                </div>
+                <div className="animate__animated animate__fadeInUp">
+                  <h1>Hello, I'm Ayobami</h1>
+                  <h1 className="m-1">A Front-End Developer</h1>
+                </div>
               </div>
               <div />
             </div>
