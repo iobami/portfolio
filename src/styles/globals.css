@@ -326,6 +326,12 @@ body {
   transition: 0.25s ease-in-out;
 }
 
+.footer__container-pirej .contact--me_at .contact--me___item:hover svg {
+  transition: 0.25s ease-in-out;
+  stroke: #ffffff;
+  fill: #ffffff;
+}
+
 .footer__container-pirej .contact--me_at .contact--me___item.github:hover {
   background: #080808;
 }
@@ -383,5 +389,14 @@ body {
   }
   .btn.copyright {
     font-size: 13px;
+  }
+  .footer__container-pirej .contact--me_at .contact--me___item {
+    height: 100px;
+    min-height: 100px;
+    max-height: 100px;
+  }
+  .footer__container-pirej .contact--me_at .contact--me___item svg {
+    width: 36px;
+    height: 36px;
   }
 }

@@ -20,8 +20,8 @@ export default function Footer() {
                 <div className="col-sm-11 col-12 mx-auto">
                   <div className="row">
 
-                    {contacts.map(({ icon, className }) => (
-                      <div className="col-md-3 pt-3">
+                    {contacts.map(({ icon, className }, index) => (
+                      <div key={index} className="col-md-3 col-6 pt-3">
                         <div className={`contact--me___item ${className}`}>
                           <div className="d-flex justify-content-center align-items-center h-100">
                             {icon}
