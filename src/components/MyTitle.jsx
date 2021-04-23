@@ -15,7 +15,7 @@ export default function MyTitle() {
                 </div>
                 <div className="animate__animated animate__fadeInUp">
                   <h1>Hello, I'm Ayobami</h1>
-                  <h1 className="m-1">A Front-End Developer</h1>
+                  <h1 className="m-1">A Frontend Developer</h1>
                 </div>
               </div>
               <div />

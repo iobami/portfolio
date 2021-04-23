@@ -4,10 +4,16 @@ import { NuxtLogoText } from '.';
 export default function FeaturesMentioned() {
   const frames = [
     {
-      title: 'Avante',
+      title: 'Tri Bloom',
+      src: 'https://res.cloudinary.com/iobami/image/upload/v1619116003/portfolio/port3_ljmi75.png',
+      comment: 'random app just to practice building clean UI',
+      route: 'https://tri-bloom.vercel.app',
     },
     {
-      title: 'Dlyght',
+      title: 'Keugs',
+      src: 'https://res.cloudinary.com/iobami/image/upload/v1619116003/portfolio/port4_jynyww.png',
+      comment: 'delivery app dashboard for tracking',
+      route: 'https://keugs.herokuapp.com',
     }
   ];
 
@@ -17,30 +23,29 @@ export default function FeaturesMentioned() {
         <div className="col-sm-11 col-12 mx-auto mb-desktop--10 mb-mobile--5">
 
           <div className="row">
-            {frames.map(({ title }, index) => (
+            {frames.map(({ title, src, comment, route }, index) => (
               <div key={index} className="col-md-12 col-lg-6 mb-4">
-                <div className="notable-mentions-item position-relative">
-                  <img src={`https://picsum.photos/600/300?random=${index + 6}`} alt="" />
+                <a href={route} target="_blank">
+                  <div className="notable-mentions-item position-relative">
+                    <img src={src} alt="" />
 
-                  <span className="badge-taggg left">{title}</span>
+                    <span className="badge-taggg left">{title}</span>
 
-                  {index === 0 && (
-                    <span className="badge-taggg right">
-                      <img src="/imgs/next.svg" alt="" />
-                    </span>
-                  )}
-                  {index === 1 && (
-                    <span className="badge-taggg whitebg-right">
-                      <NuxtLogoText />
-                    </span>
-                  )}
-                  <div className="content overlay">
-                    <div className="main bottom">
-                      So chap was arguing about the best and I told him oh snap !
-                      I cant remember the rest
+                    {index === 0 && (
+                      <span className="badge-taggg right">
+                        <img src="/imgs/next.svg" alt="" />
+                      </span>
+                    )}
+                    {index === 1 && (
+                      <span className="badge-taggg whitebg-right">
+                        <NuxtLogoText />
+                      </span>
+                    )}
+                    <div className="content overlay">
+                      <div className="main bottom text-white">{comment}</div>
                     </div>
                   </div>
-                </div>
+                </a>
               </div>
             ))}
           </div>

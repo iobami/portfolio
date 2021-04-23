@@ -18,6 +18,7 @@ function App({ Component, pageProps }) {
         <link rel="icon" href="/favicon.ico" />
 
         <link rel="stylesheet" href="./css/bootstrap.css" />
+        <link rel="stylesheet" href="./css/globals.css" />
       </Head>
 
       <Component {...pageProps} />

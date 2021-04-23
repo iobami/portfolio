@@ -145,7 +145,6 @@ body {
   max-height: inherit;
   border-radius: 0.4rem;
   transition: 0.5s ease;
-  object-fit: contain;
 }
 
 .top-threeee-fronter-container .top-three-item .content.overlay {
@@ -301,7 +300,6 @@ body {
 .btn.copyright {
   cursor: text !important;
   font-size: 14px;
-  font-weight: 400;
   margin: 0;
   padding: 12px 20px;
   color: rgb(255, 255, 255) !important;
