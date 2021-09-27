@@ -4,18 +4,17 @@ import ScrollAnimation from 'react-animate-on-scroll';
 export default function TopThree() {
   const top3 = [
     {
-      title: 'Bams The Bot',
-      route: 'https://bambamthebot.netlify.app',
-      src: 'https://res.cloudinary.com/iobami/image/upload/v1619116003/portfolio/port_ysuned.png',
-      description: 'An AI powered web application for making admission ' +
-        'enquiries at the University of Ibadan'
+      title: 'Feedsbud',
+      route: 'https://feedsbud.netlify.app/',
+      src: 'https://res.cloudinary.com/iobami/image/upload/v1632737000/portfolio/feeds_nfmbqq.png',
+      description: 'An AI powered web application that connects with ' +
+        'news and jokes APIs'
     },
     {
-      title: 'Qui',
-      route: 'https://qui.netlify.app/dashboard',
-      src: 'https://res.cloudinary.com/iobami/image/upload/v1619116003/portfolio/port1_pxp1nk.png',
-      description: 'Osobot\'s user dashboard for uploading exam objective questions ' +
-        'and excel files'
+      title: 'Storejars',
+      route: 'https://storejars.com/',
+      src: 'https://res.cloudinary.com/iobami/image/upload/v1632737295/portfolio/feeds2_b806v5.png',
+      description: 'an application that helps you create an eCommerce site for your business'
     },
     {
       title: 'Waste 2 Wealth',

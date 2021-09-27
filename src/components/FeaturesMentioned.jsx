@@ -4,17 +4,30 @@ import { NuxtLogoText } from '.';
 export default function FeaturesMentioned() {
   const frames = [
     {
-      title: 'Tri Bloom',
-      src: 'https://res.cloudinary.com/iobami/image/upload/v1619116003/portfolio/port3_ljmi75.png',
-      comment: 'random app just to practice building clean UI',
-      route: 'https://tri-bloom.vercel.app',
+      title: 'Medixab',
+      src: 'https://res.cloudinary.com/iobami/image/upload/v1632737295/portfolio/feeds1_xvjmcp.png',
+      comment: 'an ecommerce app where different vendors can register to sell items',
+      route: 'https://vendor.medixab.net/',
     },
     {
       title: 'Keugs',
       src: 'https://res.cloudinary.com/iobami/image/upload/v1619116003/portfolio/port4_jynyww.png',
       comment: 'delivery app dashboard for tracking',
       route: 'https://keugs.herokuapp.com',
-    }
+    },
+    {
+      title: 'Tri Bloom',
+      src: 'https://res.cloudinary.com/iobami/image/upload/v1619116003/portfolio/port3_ljmi75.png',
+      comment: 'random app just to practice building clean UI',
+      route: 'https://tri-bloom.vercel.app',
+    },
+    {
+      title: 'Qui',
+      src: 'https://res.cloudinary.com/iobami/image/upload/v1619116003/portfolio/port1_pxp1nk.png',
+      comment: 'Osobot\'s user dashboard for uploading exam objective questions ' +
+        'and excel files',
+      route: 'https://qui.netlify.app/dashboard',
+    },
   ];
 
   return (

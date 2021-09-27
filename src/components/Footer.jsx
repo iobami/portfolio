@@ -5,7 +5,7 @@ import { HeartIcon, Github, Linkedin, Twitter, Yahoo } from '.';
 export default function Footer() {
   const contacts = [
     { icon: <Github />, className: 'github', route: 'https://github.com/iobami' },
-    { icon: <Linkedin />, className: 'linkedin', route: 'https://www.linkedin.com/in/ayobami-j-aladenoye-75b832182/' },
+    { icon: <Linkedin />, className: 'linkedin', route: 'https://www.linkedin.com/in/ayobami-aladenoye' },
     { icon: <Twitter />, className: 'twitter', route: 'https://twitter.com/iobami' },
     { icon: <Yahoo />, className: 'yahoo', route: 'ayobamialadenoye@yahoo.com' },
   ];

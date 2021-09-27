@@ -15,7 +15,7 @@ export default function WhatIDo() {
                 </h2>
 
                 <div className="mt-3">
-                  <a className="btn btn-primary">My Projects</a>
+                  <a className="btn btn-primary">Other Projects</a>
                 </div>
               </ScrollAnimation>
             </div>
